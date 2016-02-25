@@ -47,7 +47,7 @@ div {
 /********** Desktop **********/
 @media (min-width: 992px) {
   .l1 {
-    width: 33%;
+    width: 30%;
   }
 }
 
