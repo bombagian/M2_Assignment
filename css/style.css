@@ -36,7 +36,8 @@ div {
     border: 1px solid black;
     text-align: center;
     padding:5px;
-    width: 25%;
+    /*width: 25%;*/
+    width: 150px;
     position: absolute;
     right: -1px;
     top: -1px;
