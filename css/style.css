@@ -5,67 +5,89 @@
   padding:0;
 }
  
+body {
+  margin: 10px;
+}
+
 h1 {
   margin-bottom: 15px;
 }
 
+
 div {
   font-family: Helvetica;
+  height: 100px;
 }
 
-.container {
-    float: left;
-    background-color:grey;
-    position: relative;
-    height: 100px;
-    border:1px solid black;
-    margin: 10px;
+.col {
+  /*background-color:blue;*/
+  height: 100%;
 }
+
+.box {
+  background-color:grey;
+  border: 1px solid black;
+  margin: 0px 10px 10px 10px;
+  position: relative;
+}
+
 
 .title{
     border: 1px solid black;
     text-align: center;
-    background-color:white;
-    position: absolute;
-    right: 0px;
-    top: -1px;
-    width: 100px;
-    height: 30px;
-    vertical-align: center;
     padding:5px;
+    width: 25%;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    height: 30px;
   }
 
   .menu{
-    position: absolute;
-    top: 30px;
-    height: 70%;
-    width: 100%;
     overflow: scroll;
-    padding: 3px;
+    position: absolute;
+    top:30px;
+    height: 60px;
+    padding: 10px;
   }
+
+#m1{background-color: #ffcccc;}
+#m2{background-color: #b3ffb3;}
+#m3{background-color: #99ebff;}
+
 
 /********** Desktop **********/
 @media (min-width: 992px) {
   .l1 {
-    width: 30%;
+    float: left;
+    width: 33.33%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 /********** Tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
  .md1 {
-    width: 46%;
+    float: left;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
     }
  .md2 {
+    float: left;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     }
   }
 
   /********** Mobile **********/
 @media (max-width: 767px) {
   .sml {
-    /*clear: left;*/
     float: left;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     }
   }
